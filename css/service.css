@@ -1,0 +1,55 @@
+.service{
+    background-color: #f9f9f9;
+}
+.service_item{
+    float: left;
+    width: 50%;
+}
+.service_item .section_header{
+    text-align: left;
+}
+.service_item .section_header .line{
+    margin: 0 0 40px 0;
+}
+.service_item .service_item_des {
+    line-height: 1.5;
+    color: #999;
+    padding-right: 20px ;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.service_list{
+    list-style:none;
+}
+service_list li {
+    margin-bottom: 10px;
+}
+.service_list li i {
+    border: 1px  solid blue;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+    border-radius: 50%;
+
+}
+.service_item_image img{
+    width: 100%;
+}
+.bol{
+    list-style: none;
+    text-align: center;
+}
+.bol li {
+    width: 10px;
+    height: 10px;
+    background-color: #e8e8e8;
+    display: inline-block;
+    margin:10px 5px ;
+    border-radius: 50%;
+}
+.bol .active{
+    background-color: blue;
+}
+.bol li:hover{
+    background-color: blue;
+}

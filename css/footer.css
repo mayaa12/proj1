@@ -1,0 +1,30 @@
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding:60px 0;
+}
+.footer_links{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer_links li{
+    display: inline-block;
+}
+.footer_links li a {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main);
+    
+    margin: 0 5px;
+    color:white;
+    border-radius: 50%;
+    display: block;
+
+}
+.footer_links li a  i{
+    line-height: 50px;
+
+}
+.cop{
+    font-size: 15px;
+}

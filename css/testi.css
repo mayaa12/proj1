@@ -1,0 +1,43 @@
+.testi{
+    position: relative;
+    background-image: url('../imges/off3.jpg');
+  background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+
+}
+.testi_content{
+    overflow: hidden;
+    padding: 120px 0;
+}
+.testi_item{
+    float: left;
+    width: 50%;
+    color: white;
+    
+}
+.testi_top{
+    position: relative;
+    padding: 10px 10px 18px 80px;
+    
+}
+.testi_top img{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+  
+   
+}
+.testi_top h2{
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.testi_des{
+    line-height: 1.5;
+    font-size: 17px;
+    margin-top: 20px;
+}

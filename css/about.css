@@ -1,0 +1,25 @@
+.about_item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 50px 20px;
+}
+.about_item.mg{
+    margin: 0 5%;
+}
+.about_item i {
+    color: blue;
+    margin-bottom: 10px;
+}
+.about_item_title{
+    margin-bottom: 10px;
+    transition:  color 0.5s;
+}
+.about_item_description{
+    line-height: 1.6;
+    color: white;
+}
+.about_item_link{
+    color: blue;
+}

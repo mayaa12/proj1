@@ -1,0 +1,47 @@
+.pricing_plans{
+    overflow: hidden;
+}
+.pricing_item{
+    float: left;
+    width: 30%;
+    border: 1px solid #e8e8e8;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.pricing_item.mg{
+    margin: 0 5%;
+}
+.dollar{
+    font-size: 50px;
+}
+
+.pricing_permonth{
+    border: 1px solid blue;
+    border-radius: 50% 50%;
+    width: 100px;
+    
+    padding: 20px 0 ;
+    margin:  20px auto;
+    
+}
+.month{
+    font-weight: bold;
+
+}
+.pricing_list{
+    list-style: none;
+}
+.pricing_list li{
+    color: #999;
+    line-height: 1.8;
+}
+.pricing_purchase{
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 15px auto 0 auto;
+    width: 140px;
+    color: blue;
+    border:2px solid blue;
+}

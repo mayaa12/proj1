@@ -1,0 +1,29 @@
+.numbers{
+    position: relative;
+    background-image: url('../imges/office.jpg');
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.numbers_items{
+
+    overflow: hidden;
+    text-align: center;
+    
+}
+.number_item{
+ float:left;
+ width: 25%;
+ 
+}
+.number_item .icon {
+color: blue ;
+margin-bottom: 15px;
+}
+.number_item_title{
+ font-weight: bold;
+ color: white;
+} 
+.number_item_text{
+    color: white;
+}

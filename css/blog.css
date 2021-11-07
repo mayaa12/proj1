@@ -1,0 +1,47 @@
+.blog{
+    background-color: #f9f9f9;
+     
+    
+
+
+}
+.blog_info{
+    padding: 20px;
+}
+.blog_content{
+    overflow: hidden;
+
+}
+.blog_item.mg{
+    margin:0 5%;
+}
+.blog_title{
+    font-weight: bold;
+    margin: 20px 0;
+}
+.blog_des{
+    color: #999;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.blog_link{
+    color:  cornflowerblue;
+}
+.blog_item{
+    width: 30%;
+    float: left;
+}
+.blog_item img{
+    width:100%;
+}
+.blog_list {
+    list-style: none;
+    margin: 10px 0;
+}
+.blog_list li{
+    display: inline-block;
+   margin:0 5px;
+}
+.blog_list .icon{
+    color:cornflowerblue;
+}

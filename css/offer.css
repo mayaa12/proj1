@@ -1,0 +1,37 @@
+.offer_content{
+    overflow: hidden;
+}
+.offer_item{
+ width: 30%;
+ float: left;
+ border: 1px solid #e8e8e8;
+
+ margin-bottom: 20px ;
+ padding: 30px 15px 30px 70px;
+ position: relative;
+}
+
+.offer_item.mg{
+    margin: 0 5%;
+}
+
+.offer_item icon {
+    position: absolute;
+    top:15px ;
+    left: 35px;
+    color: blue;
+}
+.offer_title{
+  margin-bottom: 15px;
+  transition: color 0.5s;
+
+  
+}
+.offer_des{
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: blue;
+}
+.offer_item:hover .offer_title{
+    color: white;
+}

@@ -1,0 +1,69 @@
+.home{
+    height: 100vh;
+    background-image: url('../imges/office.jpg');
+    background-size: cover;
+ 
+    position: relative;
+}
+.home_description {
+    margin: 0px 10px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.home_content {
+    
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 65%;
+}
+.btn{
+    width: 150px;
+    padding:10px 0 ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn_start{
+    margin-right: 10px;
+    background-color: white;
+}
+.btn_learn{
+    background-color: turquoise;
+}
+.header .nav  > li  > a::after , .header .nav li a.active::after{
+content: '';
+display: block;
+
+height: 3px;
+background-color: turquoise;
+transition: width 0.9;
+
+}
+.header .nav  > li > a::after{
+    width: 0px;
+}
+.header .nav  > li > a.active::after{
+    width: 100%;
+}
+.header .nav  > li  > a:hover::after{
+    width: 100%;
+}
+.nav .drop{
+    position: relative;
+}
+.nav .drop .menu{
+    position: absolute;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.5s, visibility 0.5s ;
+   
+}
+.nav .drop:hover .menu{
+    opacity: 1;
+    visibility: visible;
+}
